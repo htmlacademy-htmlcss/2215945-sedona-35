@@ -60,8 +60,9 @@ body {
   color: #ffffff;
   background-color: #82B3D3;
   background-image: url("../images/background-1.jpg");
-    background-size: 100% auto;
+  background-size: 100% auto;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 .about {
@@ -79,4 +80,48 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-transform: none;
+}
+
+.advantages-item {
+  font-family: "PT Sans", sans-serif;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  text-align: center;
+  text-transform: none;
+}
+
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-item-1 {
+  text-align: center;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-2 {
+  text-align: center;
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.recommendation-item {
+  font-family: "PT Sans", sans-serif;
+  color:  #333333;
+  background-color: rgba(131, 179, 211, 0.12);
+  text-align: center;
+  text-transform: none;
+}
+
+.recommendation-title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.recommendation-item-1 {
+  background-color:  #FFFFFF;
+  text-align: center;
 }
