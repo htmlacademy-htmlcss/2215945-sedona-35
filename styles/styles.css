@@ -182,3 +182,22 @@ body {
   text-transform: uppercase;
 }
 }
+.page-footer {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+.page-footer a {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.footer-contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+}
