@@ -78,6 +78,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-transform: none;
+  color: #333333;
 }
 
 .advantages-item {
@@ -96,11 +97,13 @@ body {
 
 .advantages-item-1 {
   text-align: center;
+  color: #333333;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-item-2 {
   text-align: center;
+  color: #333333;
   background-color: rgba(131, 179, 211, 0.2);
 }
 
@@ -127,6 +130,7 @@ body {
 .booking {
   font-size: 22px;
   line-height: 26px;
+  color: #333333;
   text-align: center;
 }
 
@@ -167,6 +171,16 @@ body {
   text-transform: uppercase;
 }
 
+.subscription button {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  text-transform: uppercase;
+}
+
 .field {
   font-size: 18px;
   line-height: 24px;
@@ -174,13 +188,6 @@ body {
   background-color: #F2F2F2;
 }
 
-.button {
-  font-size: 20px;
-  line-height: 36px;
-  color: #FFFFFF;
-  background-color: #82B3D3;
-  text-transform: uppercase;
-}
 }
 .page-footer {
   font-size: 40px;
@@ -192,12 +199,12 @@ body {
 .page-footer a {
   color: #000000;
   background-color: #FFFFFF;
+  text-decoration: none;
 }
 
 .footer-contacts-phone {
   font-size: 40px;
   line-height: 40px;
-  font-weight: 400;
   text-decoration: none;
   text-transform: uppercase;
 }
