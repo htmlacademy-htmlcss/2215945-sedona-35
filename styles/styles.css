@@ -15,6 +15,10 @@
 }
 
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -25,6 +29,17 @@ body {
 
 .page-header {
   color: #000000;
+}
+
+.navigation {
+display: flex;
+width: 1200px;
+margin: 0 auto;
+}
+
+.navigation-list {
+margin: 0;
+padding: 0;
 }
 
 .navigation-link {
@@ -49,6 +64,9 @@ body {
   text-transform: uppercase;
 }
 
+.main-container {
+  flex-grow: 1;
+}
 
 .main-index {
   color: #000000;
@@ -224,4 +242,7 @@ body {
   line-height: 40px;
   text-decoration: none;
   text-transform: uppercase;
+}
+html {
+  height: 100%;
 }
