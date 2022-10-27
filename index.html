@@ -5,14 +5,12 @@
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href="styles/styles.css">
   </head>
-  <body>
+  <body class="body-cintainer">
 
 <header class="page-header">
-  <section class="header-logo">
-    <a class="index-link"  href="index.html">
+  <a class="index-link"  href="index.html">
       <img class="sedona-logo" src="images/sedona-logo.svg" width="140" height="70" alt="Welcome to the gorgeous Sedona. Because the Grand canyon sucks.">
-    </a>
-  </section>
+  </a>
 
   <nav class="navigation">
     <ul class="navigation-list">
@@ -26,7 +24,7 @@
         <a class="navigation-link" href="hotels.html">Гостиницы</a>
       </li>
     </ul>
-    <ul class="navigation-list navigation-user"></ul>
+    <ul class="navigation-list navigation-user">
       <li class="navigation-item">
         <a class="navigation-link" href="#">
           <span class="visually-hidden">
@@ -48,8 +46,7 @@
   </nav>
 </header>
 
-<main class="main-container main-index">
-  <div class="page-container">
+<main class="main-index">
   <div class="index-logo">
     <h1 class="visually-hidden">Седона</h1>
     <img class="main-logo" src="images/welcome-sedona.svg" width="458" height="352" alt="Логотип Седона">
@@ -64,10 +61,13 @@
     <h2 class="visually-hidden">Преимущества</h2>
     <ul class="advantages-list">
       <li class="advantages-item-first advantages-item">
+        <div class="advantages-item-landscape">
         <h3 class="advantages-title">Настоящий<br> городок</h3>
         <p class="advantages-description">Седона — не аттракцион для<br> туристов, там течёт своя<br> жизнь</p>
-        <img class="advantages-logo" src="images/sedona-landscape.jpg" widht="800" height="384" alt="Пейзаж Седоны">
+        </div>
+        <img class="advantages-logo" src="images/sedona-landscape.jpg" width="800" height="384" alt="Пейзаж Седоны">
       </li>
+    <div class="advantages-items">
       <li class="advantages-item-1">
         <h3 class="advantages-title-1">Небольшая<br> площадь</h3>
         <p class="advantages-description-1">Все достопримечательности<br> находятся очень близко</p>
@@ -79,11 +79,14 @@
       <li class="advantages-item-1">
         <h3 class="advantages-title-1">Мало<br> туристов</h3>
         <p class="advantages-description-1">Большинство едет в Гранд<br> Каньон и толпится там</p>
-        <img class="advantages-logo" src="images/devils-bridge.jpg" widht="800" height="384"  alt="Мост дьявола">
       </li>
-      <li class="advantages-item">
+    </div>
+      <li class="advantages-item-fifth advantages-item">
+        <img class="advantages-logo" src="images/devils-bridge.jpg" width="800" height="384"  alt="Мост дьявола">
+        <div class="advantages-item-devils-bridge">
         <h3 class="advantages-title">Там есть<br> мост дьявола</h3>
         <p class="advantages-description">Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется</p>
+        </div>
       <li>
       </ul>
       </section>
@@ -121,7 +124,6 @@
         <button class="button" type="submit">Подписаться</button>
         </form>
       </section>
-  </div>
 </main>
 <footer class="page-footer-container page-footer">
   <section class="footer-social">
@@ -151,7 +153,7 @@
 
   <section class="footer-logo">
     <a class="html-academy-link" href="https://htmlacademy.ru/">
-     <img class="html-academy-logo" src="images/html-academy-logo.svg" widht="114.9" height="32.9"  alt="Логотип HTML Academy">
+     <img class="html-academy-logo" src="images/html-academy-logo.svg" width="114.9" height="32.9"  alt="Логотип HTML Academy">
     </a>
   </section>
 
