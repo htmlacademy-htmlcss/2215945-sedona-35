@@ -114,6 +114,10 @@ padding: 0;
   color: #333333;
 }
 .advantages-list {
+  display: flex;
+  width: 1200px;
+  align-items: center;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
@@ -140,11 +144,7 @@ padding: 0;
 .advantages-item-landscape{
   width: 400px;
 }
-.advantages-items {
-  display: flex;
-  width: 1200px;
-  align-items: center;
-}
+
 .advantages-item-fifth {
   display:flex;
   width: 1200px;
