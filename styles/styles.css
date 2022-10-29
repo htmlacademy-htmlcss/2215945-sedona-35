@@ -15,6 +15,10 @@
 }
 
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -22,11 +26,30 @@ body {
   color: #333333;
   background-color: #FFFFFF;;
 }
-
+.body-container {
+  width: 1200px;
+  margin: 0 auto;
+}
 .page-header {
   color: #000000;
 }
 
+.navigation {
+display: flex;
+width: 1200px;
+margin: 0 auto;
+}
+
+.navigation-list {
+width: 300px;
+margin-left: 250px;
+padding: 0;
+}
+
+.navigation-user {
+  width: 300px;
+  margin-left: auto;
+}
 .navigation-link {
   line-height: 24px;
   font-size: 20px;
@@ -50,6 +73,13 @@ body {
 }
 
 
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
 .main-index {
   color: #000000;
   background-color: #FFFFFF
@@ -62,6 +92,7 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   text-align: center;
+  width: 1200px;
 }
 
 .about {
@@ -81,6 +112,14 @@ body {
   text-transform: none;
   color: #333333;
 }
+.advantages-list {
+  display: flex;
+  width: 1200px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
 
 .advantages-item {
   color: #FFFFFF;
@@ -89,26 +128,70 @@ body {
   text-transform: none;
 }
 
+
 .advantages-title {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
   text-transform: uppercase;
 }
+.advantages-item-first {
+  display: flex;
+  width: 1200px;
+  align-items: center;
+}
+.advantages-item-landscape{
+  width: 400px;
+}
 
+.advantages-item-fifth {
+  display:flex;
+  width: 1200px;
+  align-items: center;
+}
+.advantages-item-devils-bridge {
+  width: 400px;
+}
 .advantages-item-1 {
+  width: 400px;
   text-align: center;
   color: #333333;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-item-2 {
+  width: 400px;
   text-align: center;
   color: #333333;
   background-color: rgba(131, 179, 211, 0.2);
 }
 
+.advantages-title-1 {
+  color: #000000;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantages-title-2 {
+  color: #000000;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.recommendation-list {
+display: flex;
+width: 1200px;
+justify-content: space-between;
+margin: 0;
+padding: 0;
+}
+
 .recommendation-item {
+  width: 400px;
   color:  #333333;
   background-color: rgba(131, 179, 211, 0.12);
   text-align: center;
@@ -124,6 +207,7 @@ body {
 }
 
 .recommendation-item-1 {
+  width: 400px;
   background-color:  #FFFFFF;
   text-align: center;
 }
@@ -163,6 +247,7 @@ body {
   text-align: center;
   font-size: 22px;
   line-height: 26px;
+  width: 1200px;
 }
 
 .subscription-title {
@@ -189,7 +274,26 @@ body {
   background-color: #F2F2F2;
 }
 
+.page-footer {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+width: 1200px;
+margin: 0 auto;
 }
+
+.footer-social {
+  width: 150px;
+  margin-left: 50px;
+  margin-right: 200px;
+}
+
+.footer-logo {
+  width: 150px;
+  margin-left: 200px;
+  margin-right: 50px;
+}
+
 .page-footer {
   font-size: 40px;
   line-height: 40px;
@@ -208,4 +312,7 @@ body {
   line-height: 40px;
   text-decoration: none;
   text-transform: uppercase;
+}
+html {
+  height: 100%;
 }
