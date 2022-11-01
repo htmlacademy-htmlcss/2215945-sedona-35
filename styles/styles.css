@@ -57,7 +57,6 @@ flex-wrap: wrap;
 align-items: center;
 width: 340px;
 margin: 0;
-padding: 0;
 margin-left: 238px;
 list-style-type: none;
 }
@@ -110,11 +109,6 @@ list-style-type: none;
 
 }
 
-.main-logo {
-margin-top: 52px;
-margin-bottom: 78px;
-}
-
 .index-logo {
   color: #ffffff;
   background-color: #82B3D3;
@@ -123,6 +117,8 @@ margin-bottom: 78px;
   background-repeat: no-repeat;
   text-align: center;
   width: 1200px;
+  padding-top: 51px;
+  padding-bottom: 78px;
 }
 
 .about {
@@ -276,7 +272,7 @@ list-style-type: none;
   line-height: 26px;
   color: #333333;
   text-align: center;
-  margin-bottom: 96px;
+  padding: 96px 304px;
 }
 
 .booking-title {
@@ -285,7 +281,6 @@ list-style-type: none;
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
-  margin-top: 96px;
 }
 
 .search-link {
@@ -309,6 +304,8 @@ list-style-type: none;
   font-size: 22px;
   line-height: 26px;
   width: 1200px;
+  padding-top: 96px;
+  padding-bottom: 104px;
 }
 
 .subscription-title {
@@ -316,7 +313,6 @@ list-style-type: none;
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 96px;
 }
 
 .subscription button {
@@ -336,7 +332,7 @@ list-style-type: none;
   background-color: #F2F2F2;
   min-width: 452px;
   height: 52px;
-  margin-bottom: 104px;
+
 }
 
 .page-footer {
